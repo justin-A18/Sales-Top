@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    .footer__text{
+        font-size: 1.7rem;
+        color: var(--paragraph);
+        font-weight: normal;
+    }
+
+    .footer__icon{
+        display: flex;
+        gap: 2rem;
+        svg{
+            width: 3rem;
+        }
+
+        .facebook{
+            background-color: var(--facebook);
+            border-radius: 50%;
+            padding: .3rem;
+        }
+
+        .google{
+            background-color: var(--google);
+            border-radius: 50%;
+            padding: .3rem;
+        }
+
+        .linkedin{
+            background-color: var(--linkedin);
+            border-radius: 50%;
+            padding: .3rem;
+        }
+    }
+}

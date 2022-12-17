@@ -1,0 +1,23 @@
+.container__nav{
+    .nav__content{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        .nav__logo svg{
+            width: 4rem;
+        }
+
+        .nav__title{
+            a{
+                text-decoration: none;
+                color:black;
+            }
+        }
+    }
+
+}

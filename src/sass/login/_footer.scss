@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    .footer__text{
+        font-size: 1.7rem;
+        color: var(--paragraph);
+        font-weight: normal;
+
+        span{
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            & a:hover{
+                color: #3c3c3c;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer__icon{
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        svg{
+            width: 3rem;
+        }
+
+        .facebook{
+            background-color: var(--facebook);
+            border-radius: 50%;
+            padding: .3rem;
+        }
+
+        .google{
+            background-color: var(--google);
+            border-radius: 50%;
+            padding: .3rem;
+        }
+
+        .linkedin{
+            background-color: var(--linkedin);
+            border-radius: 50%;
+            padding: .3rem;
+        }
+    }
+}
